@@ -24,3 +24,4 @@ class Calisan extends Kisi {
     print("Maaşım da $maas");
   }
 }
+
