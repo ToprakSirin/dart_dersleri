@@ -22,8 +22,8 @@ main(List<String> args) {
   test(user4);
 }
 
-void test(User kullanici) {
-  kullanici.girisYap();
+void test(User kullanici) {   ///polimorfizm
+  kullanici.girisYap();    
 }
 
 class User {
