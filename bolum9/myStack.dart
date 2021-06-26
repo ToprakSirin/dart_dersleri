@@ -36,7 +36,7 @@ class StringMyStack {
 
 class GenericStack<T> {
   List<T> _listem = <T>[];
-  void push(T yenEleman) {
+   void push(T yenEleman) {
     _listem.add(yenEleman);
   }
 
