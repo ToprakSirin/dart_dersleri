@@ -7,5 +7,9 @@ int karakterSayisiniBul(String? metin) {
 }
 
 main(List<String> args) {
-  print(karakterSayisiniBul('emre'));
+  try {
+    print(karakterSayisiniBul('emre'));
+  } catch (e) {
+    print(e);
+  }
 }
