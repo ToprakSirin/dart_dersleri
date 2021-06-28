@@ -7,5 +7,5 @@ main(List<String> args) {
   print('null olabilecek liste $nullOlabilecekStringListesi ');
   print(
       'nullOlabilecekStringLeriTutanListe $nullOlabilecekStringLeriTutanListe');
-  
+  print(stringListesi);
 }
